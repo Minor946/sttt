@@ -10,6 +10,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/semantic.min.css') }}">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -91,5 +94,13 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/semantic.min.js') }}"></script>
+
+    <script>
+
+    </script>
     </body>
 </html>
